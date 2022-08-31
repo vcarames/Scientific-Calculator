@@ -1,0 +1,17 @@
+:root {
+  --background: linear-gradient(
+    0deg,
+    hsla(294, 63%, 9%, 1) 0%,
+    hsla(345, 63%, 20%, 1) 100%
+  );
+
+  --card-Background: linear-gradient(
+    0deg,
+    hsla(295, 56%, 21%, 1) 10%,
+    hsla(345, 55%, 52%, 1) 90%
+  );
+
+  --functions: hsl(336, 100%, 65%);
+
+  --hover: hsla(336, 100%, 65%, 0.1);
+}

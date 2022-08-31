@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/theme--01.css" id="theme" />
+
+    <title>Scientific Calculator</title>
+  </head>
+  <body>
+    <main>
+      <div class="theme-toggles">
+        <label class="custom-radio-btn">
+          <input id="first" name="toggle-state" type="radio" checked />
+          <span class="checkmark"></span>
+        </label>
+
+        <label class="custom-radio-btn">
+          <input id="second" name="toggle-state" type="radio" />
+          <span class="checkmark"></span>
+        </label>
+
+        <label class="custom-radio-btn">
+          <input id="third" name="toggle-state" type="radio" />
+          <span class="checkmark"></span>
+        </label>
+      </div>
+
+      <div class="calculator">
+        <div class="main-display">
+          <div id="answerDisplay" class="answerDisplay">0</div>
+          <div id="inputDisplay" class="inputDisplay"></div>
+        </div>
+        <div class="container-btns">
+          <button type="button" class="functions-btn" id="clear" value="">
+            AC
+          </button>
+
+          <button type="button" class="functions-btn" value="(">(</button>
+          <button type="button" class="functions-btn" value=")">)</button>
+          <button type="button" class="functions-btn" value="%">%</button>
+          <button
+            type="button"
+            class="functions-btn"
+            id="squareroot"
+            value="&radic;"
+          >
+            √
+          </button>
+
+          <button type="button" class="functions-btn" id="exponent" value="">
+            ^
+          </button>
+          <button type="button" class="functions-btn" value="/">÷</button>
+          <button type="button" class="functions-btn" value="*">x</button>
+          <button type="button" class="numeric-btn" value="7">7</button>
+          <button type="button" class="numeric-btn" value="8">8</button>
+          <button type="button" class="numeric-btn" value="9">9</button>
+          <button type="button" class="functions-btn" value="-">-</button>
+          <button type="button" class="numeric-btn" value="4">4</button>
+          <button type="button" class="numeric-btn" value="5">5</button>
+          <button type="button" class="numeric-btn" value="6">6</button>
+          <button type="button" class="functions-btn" value="+">+</button>
+          <button type="button" class="numeric-btn" value="1">1</button>
+          <button type="button" class="numeric-btn" value="2">2</button>
+          <button type="button" class="numeric-btn" value="3">3</button>
+
+          <button type="button" class="numeric-btn" value=".">.</button>
+          <button type="button" class="numeric-btn" value="0">0</button>
+
+          <button type="button" class="functions-btn" id="delete" value="">
+            ⌫
+          </button>
+          <button type="button" class="functions-btn enter" id="enter" value="">
+            =
+          </button>
+        </div>
+      </div>
+    </main>
+
+    <script src="script/index.js"></script>
+    <script src="script/theme.js"></script>
+  </body>
+</html>
